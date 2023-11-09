@@ -1,8 +1,14 @@
 .MovieList {
-    margin: 30px;
+    
     width: 100%;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
     gap: 16px; 
+    background-image: url(https://i.pinimg.com/564x/be/ca/18/beca18503c0143ba9e4a39dd92b9f2d5.jpg);
+    background-size:cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center center;
   }
   

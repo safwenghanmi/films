@@ -2,5 +2,15 @@
    
     display: flex;
     justify-content: space-between;
+   
     
 };
+
+body.nav{
+    margin: 40px;
+    padding: 30px;
+ background-color: black;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
