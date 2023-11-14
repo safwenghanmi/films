@@ -12,8 +12,8 @@ const MovieList = ({movies , inputSearsh , rating}) => {
         {movies
         .filter(movie=>movie.title.toUpperCase().includes(inputSearsh.toUpperCase())
         && movie.rate >= rating)
-
         .map((movie) => (<MovieCard movie={movie} key={movie.id} />))}
+        
     </div>
   )
 }

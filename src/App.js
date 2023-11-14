@@ -8,6 +8,8 @@ import AddMovie from './component/AddMovie';
 import Filtre from './component/Filtre';
 import FiltreByRate from './component/Rating';
 
+
+
 function App() {
 const [movies,setmovies]=useState(moviesData)
 const [inputSearsh,setInputSearsh]=useState("")
